@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.dicepoker.MainActivity">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table"
+    android:id="@+id/mainlayout"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/picx1"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="0"
+                android:onClick="picx1"/>
+
+            <ImageView
+                android:id="@+id/picx2"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="1"
+                android:onClick="picx2"/>
+
+            <ImageView
+                android:id="@+id/picx3"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="2"
+                android:onClick="picx3"/>
+
+            <ImageView
+                android:id="@+id/picx4"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="3"
+                android:onClick="picx4"/>
+
+            <ImageView
+                android:id="@+id/picx5"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="4"
+                android:onClick="picx5"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Roll!"
+            android:id="@+id/p2but"
+            android:onClick="Roll1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Roll!"
+            android:id="@+id/p1but"
+            android:onClick="Roll2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/picy1"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="0"
+                android:onClick="picy1"/>
+
+            <ImageView
+                android:id="@+id/picy2"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="1"
+                android:onClick="picy2"/>
+
+            <ImageView
+                android:id="@+id/picy3"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="2"
+                android:onClick="picy3"/>
+
+            <ImageView
+                android:id="@+id/picy4"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="3"
+                android:onClick="picy4"/>
+
+            <ImageView
+                android:id="@+id/picy5"
+                android:layout_width="70sp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.20"
+                android:src="@drawable/one"
+                android:tag="4"
+                android:onClick="picy5"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop"
+        android:layout_width="250sp"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/won"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/poptxt"
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="play"
+                android:text="play again!"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="back"
+                android:text="go Back!"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
