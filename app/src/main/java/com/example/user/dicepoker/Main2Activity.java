@@ -18,7 +18,7 @@ public class Main2Activity extends AppCompatActivity {
             public void onFinish() {
 
 
-                startActivity(intent);
+                startActivity(intent);//sada
 
             }
 
